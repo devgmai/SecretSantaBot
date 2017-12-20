@@ -15,14 +15,13 @@ The problem with secret santa matchings is unstable matches from matching loops.
 This bot uses a variation of a stable-marriage matching algorithm. All participants are shuffled in a random order and is each participant is assigned the next participant on the list. The last participant is assigned the first participat, completing the single assignment loop.
 
 ##Instructions: 
-
 ###Installation and Dependencies:
 
 To add this bot to your Discord server, first ensure you have the following:
 
-[Python version 3.6.0 or later installed](https://www.python.org/downloads/)
-[the discord.py library](https://github.com/Rapptz/discord.py)
-[the configobj library](http://www.voidspace.org.uk/python/configobj.html#installing)
+[Python version 3.6.0 or later installed](https://www.python.org/downloads/)'\n'
+[the discord.py library](https://github.com/Rapptz/discord.py)'\n'
+[the configobj library](http://www.voidspace.org.uk/python/configobj.html#installing)'\n'
 
 Once all of the dependencies are installed, create a Discord bot token following the instructions [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token). Then, open the santa-bot.py file with your favorite plaintext editor, and replace the word `'insert_token_here'` in the last line that reads `client.run('insert_token_here')` with the token you have generated, keeping the single quotes. The santa-bot.py file can now be excecuted, and the bot should function as normal.
 
