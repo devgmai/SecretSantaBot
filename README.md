@@ -12,9 +12,9 @@ Credits for the original code go to /SneakyBastardSword.
 The Matching Algorithm:
 ======
 
-The problem with secret santa matchings is unstable matches from matching loops.
+The problem with secret santa matchings is unstable matches from matching loops. The original code suffers from this problem, so I have redesigned it.
 
-This bot uses a variation of a stable-marriage matching algorithm. All participants are shuffled in a random order and is each participant is assigned the next participant on the list. The last participant is assigned the first participat, completing the single assignment loop.
+This bot uses a variation of a stable-marriage matching algorithm. All participants are shuffled in a random order and is each participant is assigned the next participant on the list. The last participant is assigned the first participant, completing the single assignment loop.
 
 Instructions: 
 ======
