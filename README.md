@@ -5,7 +5,7 @@ A Discord bot to organize secret santa gift exchanges using the discord.py Pytho
 Disclaimers:
 ======
 
-This bot was originally created by Github user /SneakyBastardSword in year 2016. Since them, the libraries and dependencies have been updated. As a result, there are various portions of the program which no longer function. I have modified portions of the original code to make this functional.
+This bot was originally created by Github user /SneakyBastardSword in year 2016. Since then, the libraries and dependencies have been updated. As a result, there are various portions of the program which no longer function. I have modified portions of the original code to make this functional.
 
 Credits for the original code go to /SneakyBastardSword.
 
